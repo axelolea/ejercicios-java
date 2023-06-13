@@ -1,4 +1,4 @@
-package SesionUno;
+package tiposDeVariables;
 
 public class TiposYVariables {
 
@@ -105,5 +105,15 @@ public class TiposYVariables {
         double precioTotal = cantidadEntero + precioDouble;
 
         System.out.println("El precio total es: $" + precioTotal);
+        
+        System.out.print(salas);
+        System.out.print(boletos);
+        System.out.print(dulces);
+        System.out.print(asientos);
+        System.out.print(palomitas);
+        System.out.print(ganancias);
+        System.out.print(salaUno);
+        System.out.print(valorVerdadero);
+        System.out.print(valorFalso);
     }
 }
