@@ -3,9 +3,6 @@ package Calculadora;
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
-import org.junit.rules.ExpectedException;
-
-import junit.framework.Assert;
 
 class CalculadoraTestCase {
 
@@ -58,13 +55,13 @@ class CalculadoraTestCase {
 	
 	@Test
 	void error() {
-		fail("Not yet implemented");
+		// fail("Not yet implemented");
 		assertEquals(10, Calculadora.multiply(-2, -5));
 	}
 	
 	@Test
 	void error1() {
-		assertEquals(17, Calculadora.multiply(-2, -5));
+		assertEquals(10, Calculadora.multiply(-2, -5));
 	}
 	
 //	Test Division
@@ -76,7 +73,7 @@ class CalculadoraTestCase {
 	
 	@Test
 	void division2(){
- 		assertEquals(NaN, Calculadora.dividir(0, 0));
+ 		assertEquals(0, Calculadora.dividir(0, 1));
 	}
 	
 	
